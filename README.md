@@ -1,6 +1,6 @@
 These examples demonstrate how to create a stored policy on an blob container in Azure Storage using C# and Python. The stored policy is then used to create a Shared Access Signature, which can be used to provide restricted access to the contents of the containers.
 
-These examples were primarily created to generate SAS tokens to restrict access to blob storage containers used by HDInsight..
+These examples were primarily created to generate SAS tokens to restrict access to blob storage containers used by HDInsight. The HDInsightSAS.ps1 PowerShell script included in the CreateCluster folder can be used to create a new cluster that uses a shared access signature for a secondary storage account. Using the examples included in this repository, you can generate a SAS that grants read + list access, which means HDInsight can use the data in the blob store, but not write to it.
 
 ##How the examples work
 
